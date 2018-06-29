@@ -1,0 +1,10 @@
+{
+  "Dashboard": "ダッシュボード",
+  "Scan": "スキャン",
+  "QRScreenTitle": "QRスキャン",
+  "Settings": "設定",
+  "ScanQRCode_btn": "スキャンQRコード",
+  "GenerateQRCode_btn": "QRコードを生成する",
+  "Language": "言語",
+  "Version": "バージョン",
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/InventoryManagement/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/InventoryManagement/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
