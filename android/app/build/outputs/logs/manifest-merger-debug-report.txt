@@ -70,6 +70,7 @@ ADDED from /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app
 		ADDED from /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/src/main/AndroidManifest.xml:24:17-81
 uses-sdk
 INJECTED from /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [InventoryManagement:react-native-charts-wrapper:unspecified] /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/InventoryManagement/react-native-charts-wrapper/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [InventoryManagement:react-native-i18n:unspecified] /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/InventoryManagement/react-native-i18n/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [InventoryManagement:react-native-splash-screen:unspecified] /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/InventoryManagement/react-native-splash-screen/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [InventoryManagement:react-native-camera:unspecified] /Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/InventoryManagement/react-native-camera/unspecified/AndroidManifest.xml:7:5-9:41

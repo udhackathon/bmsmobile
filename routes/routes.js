@@ -4,7 +4,8 @@ import { Router, Scene, Actions } from 'react-native-router-flux';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import QRScanner from '../containers/qr_scan';
 import Dashboard from '../containers/dashboard';
-import Inbound from '../containers/inbound';
+import GenerateQR from '../containers/generateQR';
+import PartsInfo from '../containers/partsInfo';
 import Outbound from '../containers/outbound';
 import Settings from '../containers/settings';
 import { YellowBox } from 'react-native';
@@ -78,14 +79,16 @@ export default class Routes extends React.Component {
   render() {
     return (
       <Router>
-          <Scene key="root">
-            <Scene key="tabs" tabs={true} swipeEnabled={false} activeTintColor="rgba(210, 10, 15, 1)" tabBarStyle={styles.tabBar} default="tab1" tabBarPosition='bottom' hideNavBar={true}>
-              <Scene key="tab1" title="Dashboard" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={Dashboard} initial={true} icon={TabIcon} tabBarOnPress={() => this.tab1_pressed()}/>
-              <Scene key="tab2" title="Scan" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={QRScanner} icon={TabIcon} tabBarOnPress={() => this.tab2_pressed()}/>
-              <Scene key="tab5" title="Settings" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={Settings} icon={TabIcon} tabBarOnPress={() => this.tab5_pressed()}/>
-            </Scene>
+        <Scene key="root">
+          <Scene key="tabs" tabs={true} swipeEnabled={false} activeTintColor="rgba(210, 10, 15, 1)" tabBarStyle={styles.tabBar} default="tab1" tabBarPosition='bottom' hideNavBar={true}>
+            <Scene key="tab1" title="Dashboard" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={Dashboard} initial={true} icon={TabIcon} tabBarOnPress={() => this.tab1_pressed()}/>
+            <Scene key="tab2" title="Scan" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={QRScanner} icon={TabIcon} tabBarOnPress={() => this.tab2_pressed()}/>
+            <Scene key="tab5" title="Settings" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={Settings} icon={TabIcon} tabBarOnPress={() => this.tab5_pressed()}/>
           </Scene>
-        </Router>
+          <Scene key="generateQR" title="Generate QR Code" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={GenerateQR}/>
+          <Scene key="partsInfo" title="Parts Information" titleStyle={styles.navigationBarTitleStyle} navigationBarStyle={styles.navigationBarStyle} hideNavBar={true} component={PartsInfo}/>
+        </Scene>
+      </Router>
     );
   }
 }

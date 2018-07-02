@@ -16,12 +16,12 @@
         "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/anim/catalyst_push_up_out.xml"
     },
     {
-        "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_top.xml"
-    },
-    {
         "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/bmsmobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/vineshkumar/Documents/Volvo/UD_Hackathon/InventoryManagement/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",

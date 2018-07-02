@@ -7,4 +7,9 @@
   "GenerateQRCode_btn": "Generate QR Code",
   "Language": "Language",
   "Version": "Version",
+  "WarehouseID": "Warehouse ID",
+  "LocationID": "Location ID",
+  "PartsInfoScreen": "Parts Information",
+  "PrimaryLocationCount": "Primary Location",
+  "BufferLocationCount": "Buffer Location"
 }

@@ -469,7 +469,7 @@ public final class R {
 		public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f02003b;
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f02003c;
 		public static final int abc_textfield_search_material = 0x7f02003d;
-		public static final int notification_template_icon_bg = 0x7f020042;
+		public static final int notification_template_icon_bg = 0x7f020049;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f0d0058;
@@ -493,7 +493,7 @@ public final class R {
 		public static final int beginning = 0x7f0d0022;
 		public static final int buttonPanel = 0x7f0d003e;
 		public static final int cancel_action = 0x7f0d0059;
-		public static final int catalyst_redbox_title = 0x7f0d0067;
+		public static final int catalyst_redbox_title = 0x7f0d006b;
 		public static final int center = 0x7f0d001a;
 		public static final int centerCrop = 0x7f0d001b;
 		public static final int centerInside = 0x7f0d001c;
@@ -537,9 +537,9 @@ public final class R {
 		public static final int progress_circular = 0x7f0d0005;
 		public static final int progress_horizontal = 0x7f0d0006;
 		public static final int radio = 0x7f0d0042;
-		public static final int rn_frame_file = 0x7f0d0066;
-		public static final int rn_frame_method = 0x7f0d0065;
-		public static final int rn_redbox_stack = 0x7f0d0068;
+		public static final int rn_frame_file = 0x7f0d006a;
+		public static final int rn_frame_method = 0x7f0d0069;
+		public static final int rn_redbox_stack = 0x7f0d006c;
 		public static final int screen = 0x7f0d0016;
 		public static final int scrollView = 0x7f0d003a;
 		public static final int search_badge = 0x7f0d004c;
@@ -617,13 +617,13 @@ public final class R {
 		public static final int notification_template_media = 0x7f04001f;
 		public static final int notification_template_part_chronometer = 0x7f040020;
 		public static final int notification_template_part_time = 0x7f040021;
-		public static final int redbox_item_frame = 0x7f040022;
-		public static final int redbox_item_title = 0x7f040023;
-		public static final int redbox_view = 0x7f040024;
-		public static final int select_dialog_item_material = 0x7f040025;
-		public static final int select_dialog_multichoice_material = 0x7f040026;
-		public static final int select_dialog_singlechoice_material = 0x7f040027;
-		public static final int support_simple_spinner_dropdown_item = 0x7f040028;
+		public static final int redbox_item_frame = 0x7f040024;
+		public static final int redbox_item_title = 0x7f040025;
+		public static final int redbox_view = 0x7f040026;
+		public static final int select_dialog_item_material = 0x7f040027;
+		public static final int select_dialog_multichoice_material = 0x7f040028;
+		public static final int select_dialog_singlechoice_material = 0x7f040029;
+		public static final int support_simple_spinner_dropdown_item = 0x7f04002a;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f070000;

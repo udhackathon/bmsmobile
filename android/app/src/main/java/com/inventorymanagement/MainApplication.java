@@ -3,6 +3,7 @@ package com.inventorymanagement;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.github.wuxudong.rncharts.MPAndroidChartPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new MPAndroidChartPackage(),
             new RNI18nPackage(),
             new SplashScreenReactPackage(),
             new RCTCameraPackage(),
@@ -47,7 +49,12 @@ public class MainApplication extends Application implements ReactApplication {
 
   @Override
   public void onCreate() {
-    super.onCreate();
-    SoLoader.init(this, /* native exopackage */ false);
+      super.onCreate();
+      SoLoader.init(this, /* native exopackage */ false);
+
+      // call for react native >= 0.54.0
+      // ReadableNativeArray.setUseNativeAccessor(true);
+      // ReadableNativeMap.setUseNativeAccessor(true);
+
   }
 }

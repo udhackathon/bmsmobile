@@ -1814,7 +1814,14 @@ containing a value of this type.
         public static final int node_modules_reactnativerouterflux_images_menu_burger=0x7f02003f;
         public static final int node_modules_reactnavigation_src_views_assets_backicon=0x7f020040;
         public static final int node_modules_reactnavigation_src_views_assets_backiconmask=0x7f020041;
-        public static final int notification_template_icon_bg=0x7f020042;
+        public static final int notification_template_icon_bg=0x7f020049;
+        public static final int oval_marker=0x7f020042;
+        public static final int rectangle_marker=0x7f020043;
+        public static final int rectangle_marker_left=0x7f020044;
+        public static final int rectangle_marker_right=0x7f020045;
+        public static final int rectangle_marker_top=0x7f020046;
+        public static final int rectangle_marker_top_left=0x7f020047;
+        public static final int rectangle_marker_top_right=0x7f020048;
     }
     public static final class id {
         public static final int action0=0x7f0d0058;
@@ -1838,7 +1845,7 @@ containing a value of this type.
         public static final int beginning=0x7f0d0022;
         public static final int buttonPanel=0x7f0d003e;
         public static final int cancel_action=0x7f0d0059;
-        public static final int catalyst_redbox_title=0x7f0d0067;
+        public static final int catalyst_redbox_title=0x7f0d006b;
         public static final int center=0x7f0d001a;
         public static final int centerCrop=0x7f0d001b;
         public static final int centerInside=0x7f0d001c;
@@ -1878,21 +1885,25 @@ containing a value of this type.
         public static final int never=0x7f0d0028;
         public static final int none=0x7f0d0010;
         public static final int normal=0x7f0d000c;
+        public static final int oval_markerContent=0x7f0d0065;
+        public static final int oval_tvContent=0x7f0d0066;
         public static final int parentPanel=0x7f0d0035;
         public static final int progress_circular=0x7f0d0005;
         public static final int progress_horizontal=0x7f0d0006;
         public static final int radio=0x7f0d0042;
         public static final int react_test_id=0x7f0d0007;
-        public static final int rn_frame_file=0x7f0d0066;
-        public static final int rn_frame_method=0x7f0d0065;
-        public static final int rn_redbox_copy_button=0x7f0d006e;
-        public static final int rn_redbox_dismiss_button=0x7f0d006c;
-        public static final int rn_redbox_line_separator=0x7f0d0069;
-        public static final int rn_redbox_loading_indicator=0x7f0d006a;
-        public static final int rn_redbox_reload_button=0x7f0d006d;
-        public static final int rn_redbox_report_button=0x7f0d006f;
-        public static final int rn_redbox_report_label=0x7f0d006b;
-        public static final int rn_redbox_stack=0x7f0d0068;
+        public static final int rectangle_markerContent=0x7f0d0067;
+        public static final int rectangle_tvContent=0x7f0d0068;
+        public static final int rn_frame_file=0x7f0d006a;
+        public static final int rn_frame_method=0x7f0d0069;
+        public static final int rn_redbox_copy_button=0x7f0d0072;
+        public static final int rn_redbox_dismiss_button=0x7f0d0070;
+        public static final int rn_redbox_line_separator=0x7f0d006d;
+        public static final int rn_redbox_loading_indicator=0x7f0d006e;
+        public static final int rn_redbox_reload_button=0x7f0d0071;
+        public static final int rn_redbox_report_button=0x7f0d0073;
+        public static final int rn_redbox_report_label=0x7f0d006f;
+        public static final int rn_redbox_stack=0x7f0d006c;
         public static final int screen=0x7f0d0016;
         public static final int scrollView=0x7f0d003a;
         public static final int search_badge=0x7f0d004c;
@@ -1964,7 +1975,7 @@ containing a value of this type.
         public static final int abc_select_dialog_material=0x7f040017;
         public static final int dev_loading_view=0x7f040018;
         public static final int fps_view=0x7f040019;
-        public static final int launch_screen=0x7f040029;
+        public static final int launch_screen=0x7f04002b;
         public static final int notification_media_action=0x7f04001a;
         public static final int notification_media_cancel_action=0x7f04001b;
         public static final int notification_template_big_media=0x7f04001c;
@@ -1973,13 +1984,15 @@ containing a value of this type.
         public static final int notification_template_media=0x7f04001f;
         public static final int notification_template_part_chronometer=0x7f040020;
         public static final int notification_template_part_time=0x7f040021;
-        public static final int redbox_item_frame=0x7f040022;
-        public static final int redbox_item_title=0x7f040023;
-        public static final int redbox_view=0x7f040024;
-        public static final int select_dialog_item_material=0x7f040025;
-        public static final int select_dialog_multichoice_material=0x7f040026;
-        public static final int select_dialog_singlechoice_material=0x7f040027;
-        public static final int support_simple_spinner_dropdown_item=0x7f040028;
+        public static final int oval_marker=0x7f040022;
+        public static final int rectangle_marker=0x7f040023;
+        public static final int redbox_item_frame=0x7f040024;
+        public static final int redbox_item_title=0x7f040025;
+        public static final int redbox_view=0x7f040026;
+        public static final int select_dialog_item_material=0x7f040027;
+        public static final int select_dialog_multichoice_material=0x7f040028;
+        public static final int select_dialog_singlechoice_material=0x7f040029;
+        public static final int support_simple_spinner_dropdown_item=0x7f04002a;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
