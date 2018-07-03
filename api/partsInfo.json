@@ -1,0 +1,30 @@
+{
+  "id": "1",
+  "warehouseLoc":"Ageo",
+  "partName":"Engine",
+  "country":"Japan",
+  "primary_Inventory":{
+    "max_count": 100,
+    "current_count": 60
+  },
+  "buffer_inventory":[{
+      "id": 10,
+      "max_count": 100,
+      "current_count": 30
+  },
+  {
+    "id": 11,
+    "max_count": 100,
+    "current_count": 30
+  },
+  {
+    "id": 12,
+    "max_count": 100,
+    "current_count": 30
+  },
+  {
+    "id": 13,
+    "max_count": 100,
+    "current_count": 30
+  }]
+}

@@ -47,7 +47,6 @@ export default class Dashboard extends React.Component {
         text: 'Parts Information',
         textSize: 14,
         textColor: processColor('darkgray'),
-
       }
     };
   }
@@ -157,7 +156,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: 16,
-    fontWeight: "600"
+    fontWeight: "400",
+    color: 'black'
   },
   navigationBarStyle: {
     backgroundColor:'rgba(210, 10, 15, 1)'
